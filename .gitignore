@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+kink_metrics.json
+kink_fields.npz

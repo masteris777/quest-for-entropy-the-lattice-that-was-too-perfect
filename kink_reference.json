@@ -1,0 +1,53 @@
+{
+  "damped": {
+    "0.01": {
+      "D_lab13_estimator": 1.0898756620092526e-07,
+      "msd_exponent_beta": 0.42628579548930123,
+      "D_ratio_spread_over_fit_window": 2.155266003248196,
+      "net_drift": 0.09131241832477599,
+      "std_first_half": 0.023705617965771742,
+      "std_second_half": 2.2174868189400152e-07
+    },
+    "0.03": {
+      "D_lab13_estimator": 1.3293545505384237e-06,
+      "msd_exponent_beta": 0.4260614957581001,
+      "D_ratio_spread_over_fit_window": 2.156353492079438,
+      "net_drift": 0.34861106326178515,
+      "std_first_half": 0.08259006912951011,
+      "std_second_half": 2.996889331062496e-07
+    },
+    "0.05": {
+      "D_lab13_estimator": 4.118056297748999e-06,
+      "msd_exponent_beta": 0.4257468218552852,
+      "D_ratio_spread_over_fit_window": 2.157806564637134,
+      "net_drift": 0.6218334177647762,
+      "std_first_half": 0.14547666942682788,
+      "std_second_half": 5.326233727573156e-07
+    }
+  },
+  "undamped": {
+    "msd_exponent_beta": 2.025034997443797,
+    "net_drift": 462.942618918822,
+    "std_first_half": 71.14010803758573,
+    "std_second_half": 71.13337480927325
+  },
+  "transparency": {
+    "packet_energy_in": 0.08074533356073896,
+    "transmitted": 0.08068412819744508,
+    "transmitted_pct": 99.92419950405205,
+    "reflected": 1.5324001961316097e-05,
+    "reflected_pct": 0.018978188937431216,
+    "kink_shift": 0.0,
+    "params": {
+      "k0": 1.2,
+      "amp": 0.05,
+      "alpha": 0.1,
+      "c": 1.0,
+      "nx": 4096,
+      "dx": 0.5,
+      "dt": 0.1,
+      "steps": 6000
+    }
+  },
+  "verdict": "No Brownian motion in either bath: damped = one kick then parked (beta ~ 0.43 at every temperature, second-half std exactly 0), undamped = one kick then ballistic coasting (beta ~ 2). The transparency shot explains why: the medium's own waves pass through the kink almost without scattering, so they cannot jostle it. Lab 13's D values reproduce exactly and are not diffusion constants."
+}

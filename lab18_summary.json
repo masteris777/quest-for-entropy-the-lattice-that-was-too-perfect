@@ -1,0 +1,21 @@
+{
+  "scan_A_slope_p": 2.314693823735856,
+  "scan_A_slope_sigma": 0.029436911020492645,
+  "verdict": "Fail",
+  "baseline_hbar_eff": 9.333645083739044e-06,
+  "dx_scan_hbar_eff": [
+    {
+      "dx": 0.25,
+      "hbar_eff": 6.887792629691583e-07
+    },
+    {
+      "dx": 0.5,
+      "hbar_eff": 9.333645083739044e-06
+    },
+    {
+      "dx": 1.0,
+      "hbar_eff": 0.0005087160454022085
+    }
+  ],
+  "mass_agreement_max_relerr": 0.029862166253416606
+}
