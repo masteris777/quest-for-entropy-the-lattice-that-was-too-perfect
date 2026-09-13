@@ -2,6 +2,8 @@
 
 **Article:** [Quest for Entropy #7 — "The Lattice That Was Too Perfect"](https://questforentropy.substack.com/p/the-lattice-that-was-too-perfect)
 
+**Series:** ← [#6 The Droplet That Walks](https://github.com/masteris777/quest-for-entropy-the-droplet-that-walks) · [#8 The Crypto Bet](https://github.com/masteris777/quest-for-entropy-the-crypto-bet) →
+
 Companion code for the article *The Lattice That Was Too Perfect*.
 
 A deterministic lattice of coupled pendulums (the sine-Gordon chain) builds a genuine
